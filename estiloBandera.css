@@ -1,5 +1,4 @@
 *{
-    padding: 0%;
     margin: 0%;
 }
 .grid-container{
@@ -11,20 +10,18 @@
     display: grid;
     background-color: white;
     border: 1px solid black;
-    height: 100%;
 }
 
 .franja:first-child{
-    background-color: green;
-    grid-row: 1/4;
+    display: grid;
+    background-color: blue;
 }
 .franja:last-child{
+    display: grid;
     background-color: red;
-    grid-row: 1/4;
 }
 .franja:nth-child(2){
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
-    grid-row: 1/4;
 }
